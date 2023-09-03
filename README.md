@@ -1,3 +1,4 @@
+<!-- spell-checker:ignore  ttfautohint Iosevka -->
 # 字体
 
 仅仅只是增删字体。
@@ -28,6 +29,16 @@
 >         :   "
 >     <   >   ?
 > ```
+
+## Iosevka 自定义字体
+
+基本步骤：
+
+1. 安装 [ttfautohint](https://freetype.org/ttfautohint/#download)，然后添加到系统环境变量中。
+2. [到 Iosevka 网站上](https://typeof.net/Iosevka/customizer) 自定义字体，然后拷贝配置。（可以对配置进一步修改，比如设置字宽为 500）
+3. `git clone --depth 1 https://github.com/be5invis/Iosevka.git` 并且 `npm ci`
+4. 将配置添加到 `build-plans.toml` 文件中。
+5. 执行 `npm run build -- ttf::lim`
 
 ## 相关网站
 
