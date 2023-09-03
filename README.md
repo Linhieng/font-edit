@@ -1,7 +1,22 @@
 <!-- spell-checker:ignore  ttfautohint Iosevka -->
 # 字体
 
-仅仅只是增删字体。
+TODO:
+
+- [ ] 解决表格格式化时的中英文对齐问题
+
+我的字体方案：
+
+- 自定义 Basic Latin，字宽为 500（通过 Iosevka 生成）
+- 中文部分使用字宽 1000 字体（比如 sarasa-fixed-sc-regular）
+
+## Unicode 分类介绍
+
+- CJK Symbols and Punctuation 有、。【】《》
+- Halfwidth and Fullwidth Forms 含有！：；？，（）
+- General Punctuation 含有
+    - 破折号 em dash —
+    - 全角单双引号‘’“”
 
 ## 提取 ASCII 步骤
 
